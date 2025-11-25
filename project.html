@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project Detail — Jhay</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="index.html" aria-label="Home">
+        <span class="logo-mark"></span>
+        <span class="logo-text">Jhay</span>
+      </a>
+      <nav class="nav" aria-label="Main">
+        <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+        <ul class="nav-list">
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="about.html">About</a></li>
+          <li><a class="nav-link" href="projects.html">Projects</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" title="Toggle theme" aria-label="Toggle theme">🌗</button>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="section-header">
+          <h1 id="projectTitle">Project Title</h1>
+          <p id="projectSub">High‑fidelity build with smooth UX.</p>
+        </div>
+
+        <div class="project-detail">
+          <aside class="project-side glass">
+            <nav class="prevnext">
+              <a id="prevProject" href="#">← Previous Project</a>
+              <a id="nextProject" href="#">Next Project →</a>
+            </nav>
+          </aside>
+
+          <article class="project-main glass">
+            <div class="media-viewer">
+              <img id="mainMedia" src="assets/img/placeholder.svg" alt="Main project image">
+            </div>
+            <div class="thumbs" id="thumbs">
+              <img src="assets/img/placeholder.svg" alt="thumb 1">
+              <img src="assets/img/placeholder.svg" alt="thumb 2">
+              <img src="assets/img/placeholder.svg" alt="thumb 3">
+            </div>
+          </article>
+
+          <aside class="project-desc glass">
+            <h3>Project Description</h3>
+            <p id="projectDesc">Detailed breakdown of goals, process, and results. Placeholder content for the demo.</p>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-left">© <span id="year"></span> Jhay</div>
+      <div class="footer-right social">
+        <a href="#" aria-label="Facebook" class="social-link">f</a>
+        <a href="#" aria-label="Instagram" class="social-link">ig</a>
+        <a href="#" aria-label="Email" class="social-link">@</a>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js" defer></script>
+  </body>
+</html>

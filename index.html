@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="dark light">
+    <meta name="theme-color" content="#0f172a">
+    <title>Jhay — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="index.html" aria-label="Home">
+        <span class="logo-mark"></span>
+        <span class="logo-text">Jhay R.</span>
+      </a>
+      <nav class="nav" aria-label="Main">
+        <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+        <ul class="nav-list">
+          <li><a class="nav-link active" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="about.html">About</a></li>
+          <li><a class="nav-link" href="projects.html">Projects</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" title="Toggle theme" aria-label="Toggle theme">🌗</button>
+    </header>
+
+    <main>
+      <section class="hero" id="hero">
+        <div class="hero-content">
+          <p class="hero-sub">Just enjoy — we all rise.</p>
+          <div class="hero-actions">
+            <a href="projects.html" class="btn btn-primary">View Projects</a>
+            <a href="about.html" class="btn btn-ghost">About Me</a>
+          </div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="orb orb-1"></div>
+          <div class="orb orb-2"></div>
+          <div class="grid-bg"></div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-header">
+          <h2>Featured Works</h2>
+          <p>Three handpicked highlights.</p>
+        </div>
+
+        <div class="card-grid">
+          <article class="card">
+            <a href="project.html?id=1" class="card-media">
+              <img src="Screenshot 2025-11-25 001243.png" alt="Forever Flowers & Gift Shop" loading="lazy">
+            </a>
+            <div class="card-body">
+              <h3 class="card-title">E-Commerce Landing & Customer Interface
+
+              <p class="card-desc">Designed and developed a responsive landing page and customer-facing interface for a gift shop system.
+
+            </div>
+          </article>
+          <article class="card">
+            <a href="project.html?id=2" class="card-media">
+              <img src="Screenshot 2025-11-25 102717.png" alt="Featured work 2" loading="lazy">
+            </a>
+            <div class="card-body">
+              <h3 class="card-title">Frontend Development  Clean Code
+
+              <p class="card-desc">Structured HTML, CSS, and JavaScript code with clean architecture and reusable components.
+
+            </div>
+          </article>
+          <article class="card">
+            <a href="project.html?id=3" class="card-media">
+              <img src="Screenshot 2025-11-25 103859.png" alt="Featured work 3" loading="lazy">
+            </a>
+            <div class="card-body">
+              <h3 class="card-title">Authentication & Admin Dashboard System
+
+              <p class="card-desc">Complete login system with role-based access for staff and administrators.
+
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-left">© <span id="year"></span> Jhay</div>
+      <div class="footer-right social">
+        <a href="#" aria-label="Facebook" class="social-link">f</a>
+        <a href="#" aria-label="Instagram" class="social-link">ig</a>
+        <a href="#" aria-label="Email" class="social-link">@</a>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js" defer></script>
+  </body>
+</html>

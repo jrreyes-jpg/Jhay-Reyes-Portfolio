@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About — Jhay</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="index.html" aria-label="Home">
+        <span class="logo-mark"></span>
+        <span class="logo-text">Jhay</span>
+      </a>
+      <nav class="nav" aria-label="Main">
+        <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+        <ul class="nav-list">
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link active" href="about.html">About</a></li>
+          <li><a class="nav-link" href="projects.html">Projects</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" title="Toggle theme" aria-label="Toggle theme">🌗</button>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="section-header">
+          <h1>About Me</h1>
+          <p>Independent, honest, and inspired by hard‑working people.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="profile-card glass">
+            <img src="Jhay Andrie.jpg" alt="Jhay Andrie profile photo" class="profile-photo" loading="lazy">
+            <div class="profile-info">
+              <h3>Jhay</h3>
+              <p>Designer • Developer • Problem Solver</p>
+            </div>
+          </div>
+
+          <div class="bio-card glass">
+            <h3>Brief Bio</h3>
+            <p>I’m an independent builder focused on robust systems and clear UI. Mission: deliver value that is fast, polished, and scalable.</p>
+          </div>
+
+          <div class="edu-card glass">
+            <h3>Education</h3>
+            <ul class="list">
+              <li>Central I — CLS — CCC</li>
+              <li>Continuous Learning: Web Performance, Accessibility, Architecture</li>
+            </ul>
+          </div>
+
+          <div class="skills-card glass">
+            <h3>Skills Summary</h3>
+            <div class="skill"><span>HTML/CSS</span><div class="bar"><div style="--value:92"></div></div></div>
+            <div class="skill"><span>JavaScript</span><div class="bar"><div style="--value:88"></div></div></div>
+            <div class="skill"><span>UI/UX</span><div class="bar"><div style="--value:90"></div></div></div>
+            <div class="skill"><span>Performance</span><div class="bar"><div style="--value:85"></div></div></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-left">© <span id="year"></span> Jhay</div>
+      <div class="footer-right social">
+        <a href="#" aria-label="Facebook" class="social-link">f</a>
+        <a href="#" aria-label="Instagram" class="social-link">ig</a>
+        <a href="#" aria-label="Email" class="social-link">@</a>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js" defer></script>
+  </body>
+</html>
